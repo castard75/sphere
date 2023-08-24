@@ -93,7 +93,7 @@ align-items: center;}
 justify-content: center;}
 
 .bloc-sphereX-title{
-	color: black;
+	color: black !important;
 }
 
 
@@ -1037,7 +1037,7 @@ button.theme-btn i {
 /* FOOTER */
 
 footer {
-	background-color: #131314;
+	background-color: #fefefe;
 	padding: 20px 0;
 }
 .copyright p {
@@ -1056,7 +1056,7 @@ footer {
 	font-size: 19px;
 }
 .social-links.v2 li a:hover {
-	color: #f559a4;
+	color: #000000;
 }
 .image-thumb > img {
 	max-width: 100%;
@@ -1543,7 +1543,7 @@ a.jp-playlist-item.jp-playlist-current {
 	border-radius: 30px;
 }
 .bt-btns li a.apple {
-	background-color: #f8386b;
+	background-color: #f2eaec;
 	color: #fff;
 	border-color: transparent;
 }
@@ -3829,7 +3829,7 @@ width: 16rem;
 	padding: 93px 0 114px;
 }
 .nz-text > h2 {
-	color: #ef016f;
+	color: #D3B86D;
 	font-size: 35px;
 	text-transform: capitalize;
 	margin-bottom: 10px;
@@ -3861,7 +3861,7 @@ width: 16rem;
 	top: 50%;
 	left: 35px;
 	transform: translateY(-50%);
-	color: #ff0066;
+	color: #fdfff3;
 }
 .nz-form button {
 	position: absolute;
@@ -3869,7 +3869,7 @@ width: 16rem;
 	right: 0;
 	color: #ffffff;
 	font-size: 19px;
-	background:linear-gradient(to right, #bd04db, #ff0066);
+	background:linear-gradient(to right, #D3B86D 100%, #f9f9f9 0%);
 	padding: 0 55px;
 	border-radius: 0 50px 50px 0;
 	border:0;
@@ -3880,7 +3880,7 @@ width: 16rem;
 /* FOOTER */
 
 footer {
-	background-color: #ef016f;
+	background-color: #ffffff;
 	padding: 44px 0 49px;
 }
 .footer-content {
@@ -3888,7 +3888,7 @@ footer {
 	align-items: center;
 }
 .footer-content p {
-	color: #ffffff;
+	color: #000000;
 	font-size: 15px;
 	font-family: 'Roboto',sans-serif;
 }
@@ -3896,11 +3896,11 @@ footer {
 	margin-left: auto;
 }
 .footer-content .social-links li a {
-	color: #fff;
+	color: #000000;
 	font-size: 18px;
 }
 .footer-content .social-links li a:hover {
-	color: yellow;
+	color: rgb(255, 255, 255);
 }
 
 
