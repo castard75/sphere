@@ -2,10 +2,10 @@
   .scroll-parent {
     position: relative;
     width: 100vw;
-    height: 6rem;
-    padding: 2rem 0;
+    height: 4rem;
+ 
     overflow-x: hidden;
-    background-color: #fff;
+    background-color: #171515;
   }
   
   .scroll-element {
@@ -20,7 +20,7 @@
   }
   
   .scroll-element img {
-    width: 15%;
+    width: 12%;
   }
   
   .primary {
@@ -48,3 +48,8 @@
       left: 0%;
     }
   }
+
+
+  @media (max-width: 575.98px) {   .scroll-element img {
+    width: 15%;
+  } }

@@ -315,7 +315,7 @@ h3 {
 	background-image: url(https://via.placeholder.com/1920x1079);
 }
 .black-bg {
-	background-color: #000;
+	background-color: black;
 }
 .white-bg {
 	background-color: #eae3d9;
@@ -459,6 +459,16 @@ header.sticky .social-links.hd-v li a:hover {
 }
 .logo h2 a{
 	transition: unset;
+}
+.logo_tunesphere{
+	 height: 320px;
+width: 320px;}
+
+.marketing-paragraphe{
+
+color: #fff;
+line-height: 2rem;
+
 }
 
 /* MAIN BANNER */
@@ -708,10 +718,10 @@ a:hover {
 }
 .sm-btn {
 	display: inline-block;
-	color: #f4f0f9;
+	
 	font-size: 25px;
 	font-weight: 700;
-	border-bottom: 1px solid #ef016f;
+	border-bottom: 4px solid #000000;
 	text-transform: uppercase;
 	padding-bottom: 5px;
 }
@@ -3439,6 +3449,16 @@ header.sticky .logo > h2 {
 	background-color: #000306;
 }
 
+.marketing-bg{
+	background: black !important
+}
+
+
+.marketing-title{
+	font-size: 49px !important;
+	letter-spacing: -1px !important;
+	line-height: 50px !important;
+}
 .sec-title {
 	text-align: center;
 	margin-bottom: 80px;
@@ -3555,7 +3575,7 @@ header.sticky .logo > h2 {
 	font-size: 15px;
 	font-weight: 700;
 	text-transform: uppercase;
-width: 16rem;
+width: 14rem;
 	border-radius: 30px;
 	line-height: 50px;
 	padding: 0 25px;
@@ -3672,7 +3692,7 @@ width: 16rem;
 	margin-top: -13px;
 }
 .title-sec h2 {
-	color: #f9f2f2;
+	color: #000000;
 	font-size: 38px;
 	font-weight: 600;
 	position: relative;
@@ -3680,6 +3700,7 @@ width: 16rem;
 	text-transform: capitalize;
 }
 .distribution-title h2{
+	
 		color: #000000 !important;
 	
 }
@@ -3707,14 +3728,14 @@ width: 16rem;
 	margin-bottom: 30px;
 }
 .playlist-info h3 {
-	color: #ffffff;
+	color: #000000;
 	font-size: 23px;
 	line-height: 34px;
 	text-transform: capitalize;
 	margin-bottom: 5px;
 }
 .playlist-info p{
-	color: rgba(255,255,255,0.60);
+	color: rgba(0, 0, 0, 0.6);
 	font-size: 22px;
 	line-height: 32px;
 }
